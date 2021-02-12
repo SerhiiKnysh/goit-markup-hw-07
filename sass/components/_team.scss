@@ -1,58 +1,58 @@
 .team {
-    padding: 94px 0;
-  
-    background-color: $secondaryBgColor;
-  }
-  
-  .team h3 {
-    font-size: 16px;
-    font-weight: $medium;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
-  
-  .team p {
-    font-size: 16px;
-    font-weight: $normal;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  
-    color: $secondaryColor;
-  }
+  padding: 94px 0;
 
-  .team-list {
-    display: flex;
-  }
-  
-  .team h2 {
-    margin-bottom: 50px;
-  }
-  
-  .team-list > li:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  .team-list > li {
-    width: 270px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-  }
-  
-  .team-text {
-    padding: 30px 32px;
-  
-    background-color: $white;
-  }
-  
-  .team-text p {
-    margin-bottom: 16px;
-  }
-  
-  .team h3 {
-    margin-bottom: 10px;
-  }
+  background-color: $secondaryBgColor;
+}
 
-  .team-links,
+.team h3 {
+  font-size: 16px;
+  font-weight: $medium;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: $secondaryColor;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team h2 {
+  margin-bottom: 50px;
+}
+
+.team-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list > li {
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-text {
+  padding: 30px 32px;
+
+  background-color: $white;
+}
+
+.team-text p {
+  margin-bottom: 16px;
+}
+
+.team h3 {
+  margin-bottom: 10px;
+}
+
+.team-links,
 .footer-team-links {
   margin: 0;
   padding: 0;
@@ -98,6 +98,6 @@
 }
 
 .footer-team-links a {
-    background-color: rgba(255, 255, 255, 0.1);
-    fill: $white;
-  }
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: $white;
+}
